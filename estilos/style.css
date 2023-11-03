@@ -37,6 +37,26 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+#footer a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive, arial, Helvetica, sans-serif;
+    }
+    
+#footer a:hover{
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: black;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
